@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CalendarWidget · Política de privacidad</title>
+<style>
+  body { font-family: "Segoe UI", system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
+  h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; }
+  .sub { color: #666; margin-top: 0; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>CalendarWidget</h1>
+<p class="sub">Widget de calendario para el escritorio de Windows 11.</p>
+
+<p>CalendarWidget muestra en el escritorio un calendario con tus próximos eventos y tareas.
+Opcionalmente puede leer los eventos de tu Google Calendar para mostrarlos.</p>
+
+<h2 id="privacidad">Política de privacidad</h2>
+<p><em>Última actualización: 16 de noviembre de 2026.</em></p>
+
+<h2>Qué datos usa</h2>
+<p>Si conectas tu cuenta de Google, CalendarWidget solicita únicamente el permiso de
+<strong>solo lectura de Google Calendar</strong> (<code>https://www.googleapis.com/auth/calendar.readonly</code>).
+Con él lee la lista de tus calendarios (nombre y color) y los eventos de los calendarios que tú
+elijas (título, fecha, hora, lugar y descripción).</p>
+
+<h2>Cómo se usan</h2>
+<p>Esos datos se usan exclusivamente para mostrarlos en el widget de tu propio ordenador.
+CalendarWidget no puede crear, modificar ni borrar nada en tu Google Calendar.</p>
+
+<h2>Dónde se guardan</h2>
+<ul>
+  <li>Los datos se descargan directamente de los servidores de Google a tu ordenador y se guardan
+      solo en él, en la carpeta <code>%LOCALAPPDATA%\CalendarWidget</code>.</li>
+  <li>El token de acceso de Google se guarda cifrado con la protección de datos de Windows (DPAPI):
+      solo tu usuario de Windows puede descifrarlo.</li>
+  <li>CalendarWidget no tiene servidores propios: <strong>ningún dato se envía al desarrollador ni a terceros</strong>.
+      No hay publicidad, analítica ni telemetría.</li>
+</ul>
+
+<h2>Uso de los datos de las API de Google</h2>
+<p>El uso que hace CalendarWidget de la información recibida de las API de Google cumple la
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>,
+incluidos los requisitos de uso limitado.</p>
+
+<h2>Cómo eliminar tus datos</h2>
+<ul>
+  <li>En el widget: botón derecho → Google Calendar → <strong>Desconectar</strong>. Retira el permiso en Google
+      y borra del ordenador los calendarios descargados y el token.</li>
+  <li>También puedes retirar el permiso en cualquier momento desde
+      <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
+  <li>Para borrar todo, elimina la carpeta <code>%LOCALAPPDATA%\CalendarWidget</code>.</li>
+</ul>
+
+<h2>Contacto</h2>
+<p>Para cualquier pregunta sobre esta política: <a href="mailto:paratito@gmail.com">paratito@gmail.com</a></p>
+</body>
+</html>
